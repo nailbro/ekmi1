@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 ;
+    
+}
+
+
+.header {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    list-style: none;
+}
+
+.nav-left li, .nav-right li {
+    margin: 0 10px;
+}
+
+.nav-left a, .nav-right a, .logo img {
+    color:  #343434;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    color:  #343434;
+    width: 216px;
+    height: 66px;
+}
+
+.logo img {
+    text-decoration: none;
+    color:  #343434;
+    
+}
+.barcelona{
+    width: 1141px;
+    height: 474px;
+    display: flex;
+    justify-content: space-around;
+}
+.barcelona_foto{
+    width: 732px;
+    height: 474px;
+    margin: 35px 38px 160px 0;
+
+}
+.barcelona_text h1{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #343434;
+    margin: 58px 0 38px 0;
+
+}
+.barcelona_text h3{
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #343434;
+}
+.barcelona_text p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #343434;
+    margin: 15px 0 21px 0;
+}
+.barcelona_text h2{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ff9619;
+}
+.barcelona_btn button{
+    width: 288px;
+    height: 50px;
+    background-color: #ff9619;
+    border-radius: 1px;
+    border: none;
+    margin-top: 24px;
+}
+.barcelona_btn button h4{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.fotobox_card{
+    padding: 160px 0 0 0;
+}
+
+.fotobox_card img{
+    width: 311px;
+    height: 267px;
+
+}
+
+
+.table_container {
+    display: flex;
+    width: 1170px;
+    height: 130px;
+    border: 1px solid gold; 
+    margin: 199px 0 160px 0;
+  }
+
+
+  .table_section {
+    flex: 1;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    border-right: 1px solid gold; 
+  }
+  .table_section h1{
+    font-weight: 300;
+    font-size: 30px;
+    font-variant: small-caps;
+    color: #343434;
+  }
+  .table_section:last-child {
+    border-right: none;
+  }
+
+
+  .table_box {
+    width: 1169px;
+    height: 632px;
+    border: 1px solid #000; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .top-sections {
+    display: flex;
+    width: 100%;
+    height: 73px;
+  }
+
+
+  .section-1 {
+    width: 445px;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid gray; 
+  }
+  .section-2 {
+    width: 279px;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray; 
+  }
+
+  
+  .section-3 {
+    width: 445px;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray; 
+  }
+
+  
+  .bottom-section {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  
+
+
+
+  .description-section {
+    width: 1169px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin-left: 70px;
+  }
+
+  
+  .description-item {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px;
+  }
+
+  
+  .description-title::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #ff6600; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+  }
+
+  
+  .description-title {
+    font-weight: bold;
+    color: #000;
+    width: 150px;
+    margin-right: 50px; 
+  } 
+
+ 
+  .description-content {
+    color: #333;
+  }
+  .description_btn button{
+    width: 342px;
+    height: 50px;
+    background-color: #ff6600;
+    border-radius: 1px;
+    border: none;
+    margin: 25px 0 160px 828px;
+    
+  }
+  .description_btn button h2{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+  }
+  .graund{
+    width: 1300px;
+    height: 479px;
+    background: #a9c2be;
+  }
+  
+  .graund_fon{
+    width: 670px;
+    height: 478px;
+    background-image: url('/image/20000_Post.png'); /* Замените URL на ваш путь к изображению */
+    background-size: cover; /* Масштабирует изображение, чтобы оно покрыло весь блок */
+    background-repeat: no-repeat; /* Изображение не повторяется */
+    background-position: center; /* Центрирует изображение в блоке */
+  }
+  
+
+
+  .graund_main {
+    display: flex;
+    justify-content: center; /* Выровнять по правому краю */
+    align-items: flex-end; /* Выровнять по нижнему краю */
+    padding: 20px; /* Отступ от краёв окна */
+    box-sizing: border-box;
+   
+  }
+  .form-container {
+    width: 470px;
+    height: 417px; /* Фиксированная высота */
+    padding: 20px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    position: relative;
+    
+  }
+  
+
+  /* Оранжевый круг в левом верхнем углу */
+  .form-container::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff6600; /* Оранжевый цвет */
+    border-radius: 50%;
+    z-index: -1; /* Ставим позади формы */
+  }
+
+  /* Заголовок формы */
+  .form-title {
+    color: #ff6600;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  /* Основной текст */
+  .form-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  /* Поля ввода */
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  /* Секция с чекбоксом */
+  .form-checkbox-container {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .form-checkbox {
+    margin-right: 10px;
+  }
+
+  /* Кнопка отправки */
+  .form-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff6600; /* Оранжевый цвет кнопки */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .form-button:hover {
+    background-color: #e55a00; /* Более темный оттенок оранжевого при наведении */
+  }
+ .graund_box{
+    display: flex;
+ }
+
+
+ .martin_text{
+    font-weight: 700;
+    font-size: 35px;
+    font-variant: small-caps;
+    color: #ff9619;
+    margin: 160px 0 60px 0;
+ }
+ .martin_box img{
+    width: 270px;
+    height: 320px;
+    margin-right: 27px;
+    margin-bottom: 160px;
+
+ }
+ .ekmi_foto{
+  margin-left: 836px;
+  width: 364px;
+  height: 96px;
+ }
+ .ekmi{
+  width: 1300px;
+  height: 365px;
+  background:  #5b5b5b;;
+ }
+ .ekmi_box{
+  display: flex;
+  justify-content: space-around;
+  top: 80px;
+ }
+ .ekmi_card {
+  margin-top: 80px;
+
+
+
+ }
+ .ekmi_card ul li{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  letter-spacing: 0.16em;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 5px;
+ }
+ .ekmi_card p{
+  font-weight: 600;
+font-size: 13px;
+line-height: 150%;
+text-transform: uppercase;
+color: #fff;
+margin: 32px 0 32px 0;
+ }
+ .ekmi_close p{
+  font-weight: 500;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0.16em;
+text-transform: capitalize;
+text-align: center;
+color: #fff;
+margin-top: 85px;
+ }
+ .ekmi_btn button{
+  width: 271px;
+  height: 42px;
+  background:#ff6600 ;
+  border: none;
+
+ }
+ .ekmi_btn button h2{
+  font-weight: 600;
+font-size: 13px;
+line-height: 150%;
+text-transform: uppercase;
+color: #fff;
+ }
