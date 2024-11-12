@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
 }
 
 body {
@@ -16,12 +15,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-transform: uppercase;
+    list-style: none;
 }
-li{
+.header_nav li{
     padding: 5px 10px;
 }
-li:hover{
+.header_nav li:hover{
     color: white;
     cursor: pointer;
     padding: 5px 10px;
@@ -224,10 +223,12 @@ li:hover{
 .ekmi3{
     margin-left: 100px;
     padding-top: 78px;
+    color: white;
 }
 .ekmi4{
     margin-left: 85px;
     padding-top: 78px;
+    color: white;
 }
 .imc{
     margin-left: 191px;
@@ -237,7 +238,9 @@ li:hover{
     position: absolute;
     padding-top: 131px;
     margin-left: 980px;
+    color: white;
 }
+
 .btn1 {
     position: absolute;
     width: 271px;
@@ -258,4 +261,5 @@ li:hover{
     position: absolute;
     margin-top: 320px;
     margin-left: 570px;
+    color: white;
 }

@@ -8,16 +8,12 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 ;
-    
 }
-
-
 .header {
     width: 100%;
     background-color: #fff;
     padding: 10px 0;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -27,16 +23,13 @@
     padding: 0 20px;
     position: relative;
 }
-
 .nav-left, .nav-right {
     display: flex;
     list-style: none;
 }
-
 .nav-left li, .nav-right li {
     margin: 0 10px;
 }
-
 .nav-left a, .nav-right a, .logo img {
     color:  #343434;
     text-decoration: none;
@@ -114,14 +107,11 @@
 .fotobox_card{
     padding: 160px 0 0 0;
 }
-
 .fotobox_card img{
     width: 311px;
     height: 267px;
 
 }
-
-
 .table_container {
     display: flex;
     width: 1170px;
@@ -129,8 +119,6 @@
     border: 1px solid gold; 
     margin: 199px 0 160px 0;
   }
-
-
   .table_section {
     flex: 1;
     display: flex;
@@ -147,8 +135,6 @@
   .table_section:last-child {
     border-right: none;
   }
-
-
   .table_box {
     width: 1169px;
     height: 632px;
@@ -156,15 +142,11 @@
     display: flex;
     flex-direction: column;
   }
-
-  
   .top-sections {
     display: flex;
     width: 100%;
     height: 73px;
   }
-
-
   .section-1 {
     width: 445px;
     height: 73px;
@@ -182,8 +164,6 @@
     border-right: 1px solid gray;
     border-bottom: 1px solid gray; 
   }
-
-  
   .section-3 {
     width: 445px;
     height: 73px;
@@ -192,8 +172,6 @@
     justify-content: center;
     border-bottom: 1px solid gray; 
   }
-
-  
   .bottom-section {
     flex: 1; 
     display: flex;
@@ -201,11 +179,6 @@
     justify-content: center;
    
   }
-  
-  
-
-
-
   .description-section {
     width: 1169px;
     padding: 20px;
@@ -270,25 +243,25 @@
   .graund_fon{
     width: 670px;
     height: 478px;
-    background-image: url('/image/20000_Post.png'); /* Замените URL на ваш путь к изображению */
-    background-size: cover; /* Масштабирует изображение, чтобы оно покрыло весь блок */
-    background-repeat: no-repeat; /* Изображение не повторяется */
-    background-position: center; /* Центрирует изображение в блоке */
+    background-image: url('/image/20000_Post.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
   }
   
 
 
   .graund_main {
     display: flex;
-    justify-content: center; /* Выровнять по правому краю */
-    align-items: flex-end; /* Выровнять по нижнему краю */
-    padding: 20px; /* Отступ от краёв окна */
+    justify-content: center;
+    align-items: flex-end; 
+    padding: 20px; 
     box-sizing: border-box;
    
   }
   .form-container {
     width: 470px;
-    height: 417px; /* Фиксированная высота */
+    height: 417px;
     padding: 20px 30px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -299,9 +272,7 @@
     position: relative;
     
   }
-  
 
-  /* Оранжевый круг в левом верхнем углу */
   .form-container::before {
     content: "";
     position: absolute;
@@ -309,28 +280,22 @@
     left: -30px;
     width: 60px;
     height: 60px;
-    background-color: #ff6600; /* Оранжевый цвет */
+    background-color: #ff6600; 
     border-radius: 50%;
-    z-index: -1; /* Ставим позади формы */
+    z-index: -1;
   }
-
-  /* Заголовок формы */
   .form-title {
     color: #ff6600;
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 10px;
   }
-
-  /* Основной текст */
   .form-subtitle {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #333;
   }
-
-  /* Поля ввода */
   .form-input {
     width: 100%;
     padding: 10px;
@@ -340,8 +305,6 @@
     box-sizing: border-box;
     font-size: 16px;
   }
-
-  /* Секция с чекбоксом */
   .form-checkbox-container {
     display: flex;
     align-items: center;
@@ -352,16 +315,14 @@
 
   .form-checkbox {
     margin-right: 10px;
-  }
-
-  /* Кнопка отправки */
+  }  
   .form-button {
     width: 100%;
     padding: 12px;
     font-size: 16px;
     font-weight: bold;
     color: white;
-    background-color: #ff6600; /* Оранжевый цвет кнопки */
+    background-color: #ff6600;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -369,7 +330,7 @@
   }
 
   .form-button:hover {
-    background-color: #e55a00; /* Более темный оттенок оранжевого при наведении */
+    background-color: #e55a00;
   }
  .graund_box{
     display: flex;
